@@ -1,4 +1,4 @@
-<img width="300" src="/library/images/logo_rooty.png">
+<img width="300" src="/library/images/logo_expanded_rooty_dark.png">
 <p><b> ! Pre-alpha ! </b> (12.11.2017)<p>
 
 ## ¿Qué es Rooty?
