@@ -1,0 +1,32 @@
+//** Funciones de ejemplo
+
+// Aclarar ligeramente un color
+@function tint($color, $percentage)
+{
+  @return mix(white, $color, $percentage);
+}
+
+// Oscurecer ligeramente un color
+@function shade($color, $percentage)
+{
+  @return mix(black, $color, $percentage);
+}
+
+// black
+@function black($opacity)
+{
+  @return rgba(0,0,0,$opacity);
+}
+
+// white
+@function white($opacity)
+{
+  @return rgba(255,255,255,$opacity);
+}
+
+// RESPONSIVE HELPER FUNCTION para calcular porcentajes
+// calc-percent(650px, 1000px) -> 65%
+@function calc-percent($target, $container)
+{
+  @return ($target / $container) * 100%;
+}
