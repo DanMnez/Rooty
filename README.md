@@ -1,8 +1,8 @@
-# Rooty
+<img width="300" src="/library/images/logo_rooty.png">
+<p><b> ! Pre-alpha ! </b> (12.11.2017)<p>
 
-![GitHub Logo](/library/images/logo_rooty.png)
-
-Tema de WordPress mínimo realizado con Sass y Bootstrap 4.
+## ¿Qué es Rooty?
+Rooty es un tema inicial de WordPress pensado para ofrecer un marco y una guía de estilos para facilitar los primeros pasos del desarrollo de cualquier plantilla de WordPress. Rooty se centra en la <b>sencillez</b> y en la buena semántica. Además, está construido con Bootstrap 4 y SASS para que el desarrollo sea totalmente ágil y perfectamente mantenible.
 
 Ve echando un ojo (si quieres) a:
 
@@ -22,3 +22,9 @@ https://getbootstrap.com/docs/4.0/getting-started/introduction/
 https://codex.wordpress.org/
 
 y más información de instalación y uso está por llegar!, pacienciia :D
+
+## Acerca de
+
+Autor: Daniel Martínez
+
+License: https://github.com/DanMnez/Rooty/blob/master/LICENSE
