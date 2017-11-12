@@ -45,8 +45,7 @@ header h1 {
   margin-bottom: 0.5em;
 }
 header #logo {
-  width: 200px;
-  margin: 0 auto;
+  width: 300px;
 }
 
 .main-nav {
@@ -74,7 +73,7 @@ header #logo {
 }
 
 footer {
-  background: #2c3e50;
+  background: #3B3C3D;
   color: #fff;
   padding: 9px 5.5556%;
   margin-top: 1.875em;
