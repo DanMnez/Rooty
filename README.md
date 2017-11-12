@@ -1,5 +1,7 @@
 # Rooty
 
+![GitHub Logo](/library/images/logo_rooty.png)
+
 Tema de WordPress mínimo realizado con Sass y Bootstrap 4.
 
 Ve echando un ojo (si quieres) a:
