@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/**
+ * Archivo sass principal del tema.
+ *
+ * Este archivo no debería contener nada más que @import y comentarios.
+ * Las importaciones deben realizarse en el siguiente orden
+ *  1. abstracts/
+ *  2. vendors/
+ *  3. base/
+ *  4. layout/
+ *  5. components/
+ *  6. pages/
+ *  7. themes/
+ *
+ * @author Daniel Martínez
+ */
+body {
+  background: #ecf0f1;
+}
+
+a {
+  color: #3498db;
+}
+a:hover {
+  color: #2a7aaf;
+}
+a:link {
+  text-decoration: none;
+}
+
+article, .widget {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5em 4.68754%;
+  margin-bottom: 0.75em;
+}
+
+header {
+  background: #3B3C3D;
+}
+header h1 {
+  color: #fff;
+  font-size: 6.5em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+header #logo {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  padding: 0;
+  margin-bottom: 1.75em;
+  overflow: hidden;
+}
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.main-nav li {
+  float: left;
+}
+.main-nav li a {
+  color: #fff;
+  padding: 4px 10px 4px 10px;
+  display: block;
+  vertical-align: middle;
+}
+.main-nav li a:hover {
+  background: #fff;
+  color: #212529;
+}
+
+footer {
+  background: #2c3e50;
+  color: #fff;
+  padding: 9px 5.5556%;
+  margin-top: 1.875em;
+  text-align: center;
+}
+footer .container > * {
+  font-weight: 700;
+}
+footer .love {
+  /* :) */
+  font-size: 2em;
+  color: #D60008;
+}

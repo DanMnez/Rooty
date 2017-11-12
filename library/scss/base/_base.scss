@@ -1,0 +1,14 @@
+body { background: $background-light; }
+a {
+  color: $link-color;
+
+  &:hover { color: $link-color-hover; }
+  &:link { text-decoration:none; }
+}
+
+article, .widget {
+  background: $white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5em 4.68754%;
+  margin-bottom: 0.75em;
+}

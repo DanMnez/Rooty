@@ -23,7 +23,8 @@
 
     <header>
       <div class="container">
-        <h1><?php bloginfo('name'); ?></h1>
+        <!--<h1><?php bloginfo('name'); ?></h1>-->
+        <img src="https://raw.githubusercontent.com/DanMnez/Rooty/master/library/images/logo_rooty.png" id="logo" alt="Rooty">
         <nav class="main-nav">
             <?php wp_nav_menu( array( 'theme_location' => 'navigation' ) ); ?>
         </nav>

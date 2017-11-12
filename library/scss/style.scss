@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /**
  * Archivo sass principal del tema.
  *
@@ -15,8 +16,19 @@
  * @author Daniel Martínez
  */
 
-// Imports
+// abstracts
 @import "abstracts/variables";
 @import "abstracts/functions";
 @import "abstracts/mixins";
-// ...
+
+// base
+@import "base/reset";
+@import "base/helpers";
+@import "base/base";
+
+// layout
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/main";
+@import "layout/sidebar";
+@import "layout/footer";
