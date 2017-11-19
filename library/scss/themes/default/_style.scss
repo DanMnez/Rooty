@@ -1,0 +1,30 @@
+// 4.1. Abstracts
+@import 'abstracts/variables';
+
+// 4.2. Vendor
+// .. Cualquier librería específica del tema
+
+// 4.3. Base
+@import 'base/base';
+
+// 4.4 Layouts
+@import
+  'layouts/header',
+  'layouts/navigation',
+  'layouts/main',
+  'layouts/sidebar',
+  'layouts/footer';
+
+// 4.5. Components
+@import
+  'components/button',
+  'components/search';
+
+// 4.6. Pages
+@import
+  'pages/home',
+  'pages/contact';
+
+// 4.7. Hacks (Modificaciones del tema)
+@import
+'hacks/shame';

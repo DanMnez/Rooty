@@ -1,3 +1,8 @@
+/// En este archivo estarán las funciones generales para todos los temas.
+/// Para añadir funciones a temas específicos de Rooty usar el fichero
+/// _functions.scss de cada tema individual
+
+
 // Aclarar ligeramente un color
 @function tint($color, $percentage)
 {
@@ -27,4 +32,9 @@
 @function calc-percent($target, $container)
 {
   @return ($target / $container) * 100%;
+}
+
+@function white($opacity)
+{
+  @return rgba(255,255,233, $opacity);
 }

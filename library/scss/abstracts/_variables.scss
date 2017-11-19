@@ -1,10 +1,6 @@
-$black: #212529;
-$white: #fff;
+/// En este archivo estarán las variables generales que se podrán
+/// usar en todos los temas. Para añadir variables a temas específicos
+/// de Rooty usar el fichero _variables.scss de cada tema individual
 
 $link-color: #3498db;
 $link-color-hover: shade($link-color, 20%); // https://codepen.io/KatieK2/pen/tejhz
-
-$backgnd-dark: #3B3C3D;
-$backgnd-light: #ecf0f1;
-
-$red: #D60008;

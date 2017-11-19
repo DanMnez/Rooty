@@ -1,23 +1,31 @@
 @charset "UTF-8";
 /**
- * Archivo sass principal del tema.
+ * Estilos del tema.
  *
- * Este archivo no debería contener nada más que @import y comentarios.
- * Las importaciones deben realizarse en el siguiente orden
- *  1. abstracts/
- *  2. vendors/
- *  3. base/
- *  4. layout/
- *  5. components/
- *  6. pages/
- *  7. themes/
+ * En este archivo se especificará el tema que usará Rooty y los estilos generales
+ * para todo el proyecto. Se ha definido una arquitectura basada en el
+ * patrón 7-1 para los estilos de SASS.
+ * véase: https://sass-guidelin.es/es/#arquitectura
  *
- * @author Daniel Martínez
+ * Este archivo agrupa todos los ficheros sass del tema y no debería contener
+ * nada más que @import y comentarios. Las importaciones deben realizarse
+ * en el siguiente orden:
+ *
+ * 1. abstracts/
+ * 2. vendor/
+ * 3. base/
+ * 4. themes/
+ *  4.1. abstracts/
+ *  4.2. vendor/
+ *  4.3. base/
+ *  4.4. layouts/
+ *  4.5. components/
+ *  4.6. pages/
+ *  4.7. hacks/
+ *
+ * @license
+ * @author  Daniel Martínez
  */
-body {
-  background: #ecf0f1;
-}
-
 a {
   color: #3498db;
 }
@@ -26,6 +34,10 @@ a:hover {
 }
 a:link {
   text-decoration: none;
+}
+
+body {
+  background: #ecf0f1;
 }
 
 article, .widget {
