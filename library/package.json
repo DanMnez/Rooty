@@ -1,0 +1,32 @@
+{
+  "name": "rooty",
+  "version": "0.0.5",
+  "description": "Tema inicial WordPress con Bootstrap y SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanMnez/Rooty.git"
+  },
+  "keywords": [
+    "WordPress",
+    "Sass",
+    "Bootstrap",
+    "CSS",
+    "PHP",
+    "HTML5",
+    "SEO"
+  ],
+  "author": "Daniel Martínez",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/DanMnez/Rooty/issues"
+  },
+  "homepage": "https://github.com/DanMnez/Rooty#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
